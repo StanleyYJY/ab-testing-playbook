@@ -1,0 +1,6 @@
+[project]
+name = "ab-testing-playbook"
+version = "0.1.0"
+description = "Simulation-backed playbook for A/B test design and analysis: power, SRM, cluster randomization, CUPED, peeking, multiple testing."
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.13", "statsmodels>=0.14", "pandas>=2.2", "matplotlib>=3.9", "tabulate>=0.9"]
